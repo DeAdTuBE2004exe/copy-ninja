@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        /* Base styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f5;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        main h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #6e8efb;
+        }
+
+        main p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        /* Additional styles for the container */
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Home Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <p>Here are some details about different cars:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Car Name</th>
+                        <th>Model</th>
+                        <th>Year</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toyota Camry</td>
+                        <td>LE</td>
+                        <td>2022</td>
+                        <td>$24,000</td>
+                    </tr>
+                    <tr>
+                        <td>Honda Accord</td>
+                        <td>EX</td>
+                        <td>2021</td>
+                        <td>$23,500</td>
+                    </tr>
+                    <tr>
+                        <td>Ford Mustang</td>
+                        <td>GT</td>
+                        <td>2023</td>
+                        <td>$45,000</td>
+                    </tr>
+                    <tr>
+                        <td>Chevrolet Camaro</td>
+                        <td>LT</td>
+                        <td>2021</td>
+                        <td>$33,000</td>
+                    </tr>
+                    <tr>
+                        <td>BMW 3 Series</td>
+                        <td>330i</td>
+                        <td>2022</td>
+                        <td>$42,000</td>
+                    </tr>
+                    <tr>
+                        <td>Mercedes-Benz C-Class</td>
+                        <td>C 300</td>
+                        <td>2021</td>
+                        <td>$40,000</td>
+                    </tr>
+                    <tr>
+                        <td>Audi A4</td>
+                        <td>Premium</td>
+                        <td>2022</td>
+                        <td>$38,000</td>
+                    </tr>
+                    <tr>
+                        <td>Honda Civic</td>
+                        <td>Sport</td>
+                        <td>2023</td>
+                        <td>$25,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Car Dealership Time</p>
+    </footer>
+</body>
+</html>
